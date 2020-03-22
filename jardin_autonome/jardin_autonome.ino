@@ -131,26 +131,25 @@ void loop() {
   int cuve4 = random(0, 2);
   float humidite = (random(0, 101)) / 100.00f;
   
-  Serial.print("CUVE1=");
+  Serial.print("cuve1=");
   Serial.print(cuve1);
-  Serial.print(",");
+  Serial.print("&");
   
-  Serial.print("CUVE2=");
+  Serial.print("cuve2=");
   Serial.print(cuve2);
-  Serial.print(",");
+  Serial.print("&");
   
-  Serial.print("CUVE3=");
+  Serial.print("cuve3=");
   Serial.print(cuve3);
-  Serial.print(",");
+  Serial.print("&");
   
-  Serial.print("CUVE4=");
+  Serial.print("cuve4=");
   Serial.print(cuve4);  
-  Serial.print(",");
+  Serial.print("&");
   
-  Serial.print("HUMIDITE=");
+  Serial.print("humidite=");
   Serial.print(humidite);
-  Serial.println(";"); // à changer en print
 
-  // Pause de 1 minute
-  delay(60*1000);
+  // Pause de 15 secondes
+  delay(15000);
   }
