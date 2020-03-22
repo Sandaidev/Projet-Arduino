@@ -19,7 +19,7 @@ int CAPTEUR_CUVE3 = 0;
 int CAPTEUR_CUVE4 = 0;
 int CAPTEUR_HUMIDITE = 0;
 
-char program_version[] = "0.0.0";
+char program_version[] = "0.1.0";
 LiquidCrystal lcd(7, 8, 9, 10, 11 , 12);
 
 // CUSTOM FUNCTIONS
