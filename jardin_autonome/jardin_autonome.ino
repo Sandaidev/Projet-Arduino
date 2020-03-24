@@ -150,6 +150,6 @@ void loop() {
   Serial.print("humidite=");
   Serial.print(humidite);
 
-  // Pause de 15 secondes
-  delay(15000);
+  // Pause de 1 minute
+  delay(60000);
   }
